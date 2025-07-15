@@ -1,0 +1,50 @@
+name: womens_safety
+description: A Flutter app for women's safety with real-time location sharing.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  geolocator: ^11.0.0
+  convex_bottom_bar: ^3.0.0
+  shared_preferences: ^2.0.15  # Core packages
+  cupertino_icons: ^1.0.6
+  http: ^1.0.0
+  geocoding: ^2.1.0
+
+  # Location and Permissions
+  location: ^5.0.3
+  permission_handler: ^11.3.0
+  url_launcher: ^6.2.0
+  #telephony: ^0.1.4
+  cloud_firestore: ^4.15.9
+  # Toast message
+  fluttertoast: ^8.2.2
+  # State management (if needed later)
+  firebase_database: ^10.4.0
+  provider: ^6.1.2
+  firebase_auth: 4.16.0
+  #cloud_firebase : ^4.14.0
+  get : ^ 4.6.5
+  get_it: ^7.6.0
+  firebase_core: ^2.32.0
+  flutter_launcher_icons: ^0.14.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+flutter_icons:
+  android: true
+  ios: true
+image path: assets/icon.jpeg
+
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/bg.jpeg
+     - assets/member1.png
