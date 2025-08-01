@@ -35,12 +35,4 @@ HerShield is a Flutter-based mobile application aimed at enhancing women's safet
 | **OpenWeatherMap API** *(optional)* | Displays weather on travel screens |
 | **SMS/Call Integration** | SOS and emergency communication |
 
-
 ---
-
-## 🔧 Setup Instructions
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/anchalV194/HerShield.git
-   cd HerShield
